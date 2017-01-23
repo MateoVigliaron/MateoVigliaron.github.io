@@ -1,0 +1,638 @@
+
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #161616;
+    font-family: 'Cousine';
+    height: 100%;
+    width: 100%;
+}
+
+html, body {
+    height: 100%
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    transition: all 0.2s;
+    font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.section-padding {
+    padding: 60px 0px;
+}
+
+.section-title {
+    background: #696e75;
+    color: #fff;
+    padding: 50px;
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    border: 1px solid rgba(60, 89, 153, .4);
+    box-shadow: 0px 1px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+}
+
+.section-title h2 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Cousine';
+}
+
+.section-title h2:before {
+    position: absolute;
+    content: "";
+    top: 65%;
+    left: 50%;
+    width: 24px;
+    margin-left: -12px;
+    height: 2px;
+    background: #fff;
+}
+
+.preloader-area {
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.preloader, .preload {
+    background-image: url(../images/Preloader.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    position: absolute;
+    top: 50%;
+    width: 200px;
+}
+
+.scrollup {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    background-color: #696e75;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    line-height: 40px;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0px 1px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+}
+
+.scrollup:hover {
+    box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 02.HEADER AREA CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.header-area {
+    background: url(../images/bg.jpg) no-repeat scroll 0 0 / cover;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    background-position: center center;
+}
+
+.header-area:before {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
+.header-area-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.header-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-text {
+    color: #fff;
+}
+
+.header-text h1 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.cd-headline span {
+    font-size: 18px;
+}
+
+.cd-headline.clip.is-full-width {
+    margin: 0;
+}
+
+.cd-headline.clip.is-full-width span {
+    margin: 0;
+}
+
+.cd-headline.clip b {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    font-weight: 300;
+}
+
+.social-link {
+    margin-top: 20px;
+}
+
+.header-text h3 {
+    margin: 10px 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.social-link {}
+
+.social-link a {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+    background: #696e75;
+    line-height: 45px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    box-shadow: 0px 1px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+}
+
+.social-link a i {
+    font-size: 20px;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 03.MENUAREA CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.menu-area {
+    background: #696e75;
+    position: relative;
+    padding: 5px 0px;
+    z-index: 999;
+}
+
+.is-sticky {
+    width: 100%;
+    z-index: 9999;
+    position: absolute;
+}
+
+.logo {}
+
+.logo a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 10px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-nav {
+    float: right;
+    position: relative;
+}
+
+.navbar-nav li a {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-nav li:hover:before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 70%;
+    height: 1px;
+    width: 30px;
+    margin-left: -15px;
+    background: #fff;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.nav li a:focus, .nav li a:hover {
+    text-decoration: none;
+    background: none;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 04.ABOUT AREA CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.about-me-area {
+    background: #fff;
+}
+
+.about-me-text h2 {
+    margin-bottom: 20px;
+}
+
+.about-info, .skill-area {
+    margin-top: 30px;
+}
+
+.me-image img {
+    height: 250px;
+}
+
+.skills h2 {
+    margin-bottom: 30px;
+}
+
+.about-me-text p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+a.about-button {
+    display: inline-block;
+    padding: 10px;
+    background: #696e75;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 40px;
+    width: 180px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 1px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+a.about-button:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.skill-area .progress-bar {
+    background: #696e75;
+}
+
+.about-info, .skill-area {
+    margin-top: 30px;
+}
+
+.about-info h2, .skill-area h2 {
+    margin-bottom: 20px;
+}
+
+.about-info ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.about-info ul li {
+    border-bottom: 1px dashed #696e75;
+    margin-bottom: 7px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.about-info ul li span {
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 05.EDUCATION & EXPERIENCE AREA CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.education {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.experience {
+    background: #f8f8f8;
+}
+
+.single-education, .single-experience {
+    padding: 30px;
+    margin-bottom: 30px;
+    background: #fff;
+    box-shadow: 0px 8px 42px 0px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(238, 238, 238, 0.65);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.single-education:hover, .single-experience:hover {
+    border: 1px solid rgba(60, 89, 153, .4);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.single-education h2, .single-experience h2 {
+    margin: 20px 0px;
+}
+
+.single-education h3, .single-experience h3 {
+    margin: 10px 0px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.single-education p, .single-experience p {
+    margin: 0;
+}
+
+.single-education i {
+    font-size: 40px;
+    color: #696e75;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 06.SERVICE AND SKILL CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.skill-area {
+    background: #f8f8f8;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.service-area {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.single-service {
+    margin-bottom: 30px;
+    padding-right: 20px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 8px 42px 0px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(238, 238, 238, 0.65);
+    -webkit-transition: .4s;
+    transition: .4s;
+    overflow: hidden;
+}
+
+.single-service:hover {
+    border: 1px solid rgba(60, 89, 153, .4);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.single-service i {
+    font-size: 40px;
+    color: #696e75;
+}
+
+.single-service h2 {
+    margin: 20px 0px;
+}
+
+.single-service p {}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 10.CONTACT AREA CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.Contact {
+    background: #f8f8f8;
+}
+
+.single-contact {
+    text-align: center;
+}
+
+.single-contact h2 {
+    margin: 10px 0px;
+}
+
+.contact-form {
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.contact-form input {
+    height: 50px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    height: 250px;
+    border-radius: 0px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 10px;
+    background: #696e75;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0px 10px;
+    border-radius: 40px;
+    width: 180px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 0px 1px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.contact-form button:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 11.FOOTER AREA CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.footer-area {
+    background: #696e75;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.footer-area p {
+    margin: 0;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 12. TECHNO
+* ----------------------------------------------------------------------------------------
+*/
+
+.techno {
+    padding: 5px !important;
+}
+
+.techno-icon {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.techno-name {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.techno-name-ctn.no-icon {
+    margin-top: 15px;
+}
+
+.techno-name.no-icon {
+    font-size: 1.2rem;
+}
+
+.techno-category *.panel {
+    margin: 0;
+    padding: 5px;
+}
+
+.small-block-grid-3>li {
+    list-style: none;
+    float: left;
+    width: 33.33333%;
+}
+
+.small-block-grid-3>li:nth-of-type(1n) {
+    clear: none;
+}
+
+.small-block-grid-3>li:nth-of-type(3n+1) {
+    clear: both;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 13. BOUNCE ANIMATION
+* ----------------------------------------------------------------------------------------
+*/
+
+.bounce {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation: bounce 0.7s ease infinite;
+}
+
+@keyframes bounce {
+    from {
+        top: 106px;
+    }
+    50% {
+        top: 80px;
+    }
+    to {
+        top: 106px;
+    }
+}
