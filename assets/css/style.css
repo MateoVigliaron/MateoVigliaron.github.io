@@ -58,19 +58,19 @@ fieldset {
 .section-title {
     background: #696e75;
     color: #fff;
-    padding: 50px;
+    padding: 20px;
     position: relative;
-    padding-top: 30px;
-    margin-bottom: 50px;
+    padding-top: 10px;
+    margin-bottom: 20px;
     border: 1px solid rgba(60, 89, 153, .4);
     box-shadow: 0px 1px 4.7px 0.3px rgba(0, 0, 0, 0.24);
 }
 
 .section-title h2 {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     font-family: 'Cousine';
 }
 
@@ -81,7 +81,7 @@ fieldset {
     left: 50%;
     width: 24px;
     margin-left: -12px;
-    height: 2px;
+    height: 1px;
     background: #fff;
 }
 
@@ -301,10 +301,11 @@ fieldset {
 
 .about-me-area {
     background: #fff;
+    padding-left: 20px;
 }
 
 .about-me-text h2 {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .about-info, .skill-area {
@@ -312,7 +313,8 @@ fieldset {
 }
 
 .me-image img {
-    height: 250px;
+    height: 180px;
+    border-radius: 100%;
 }
 
 .skills h2 {
@@ -331,7 +333,7 @@ a.about-button {
     color: #fff;
     text-transform: uppercase;
     border-radius: 40px;
-    width: 180px;
+    width: 100px;
     text-align: center;
     font-size: 12px;
     margin-bottom: 20px;
@@ -548,7 +550,7 @@ a.about-button:hover {
     background: #696e75;
     color: #fff;
     text-align: center;
-    padding: 30px 0px;
+    padding: 10px 0px;
 }
 
 .footer-area p {
